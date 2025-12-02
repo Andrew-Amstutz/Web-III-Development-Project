@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik+Burned&display=swap');
+
+body {
+    margin: 0;
+}
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: tan;
+    margin: 0%;
+    padding: 0px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+a {
+    margin-left: 10%;
+}
+
+.home-image {
+    margin-left: 10%;
+    width: 50px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: 10%;
+    list-style: none;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+
+.spline-world {
+    position: relative;
+    /* -1 pushes the simulation behind the nav but prevents you from interacting with it
+    z-index: -1;*/
+}
